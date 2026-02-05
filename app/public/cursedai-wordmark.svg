@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="120" viewBox="0 0 560 120">
+  <style>
+    .ai-glow {
+      animation: aiPulse 2.6s ease-in-out infinite;
+    }
+    .ai-shadow {
+      animation: aiPulseShadow 2.6s ease-in-out infinite;
+    }
+    @keyframes aiPulse {
+      0%, 100% { fill: #e8e4d9; }
+      50% { fill: #fff1a8; }
+    }
+    @keyframes aiPulseShadow {
+      0%, 100% { fill: #b5b0a6; }
+      50% { fill: #6a5f3a; }
+    }
+  </style>
+  <rect width="560" height="120" fill="#0b0d0c"/>
+  <rect x="8" y="10" width="544" height="100" fill="none" stroke="#e8e4d9" stroke-width="1"/>
+  <rect x="6" y="8" width="548" height="104" fill="none" stroke="#1b1a12" stroke-width="1"/>
+  <g transform="translate(0 0)">
+    <text
+      x="26"
+      y="80"
+      font-family="IBM Plex Sans, Arial, sans-serif"
+      font-size="48"
+      letter-spacing="0.28em"
+      fill="#e8e4d9"
+    >
+      <tspan>cursed</tspan><tspan class="ai-glow">AI</tspan>
+    </text>
+    <text
+      x="24"
+      y="78"
+      font-family="IBM Plex Sans, Arial, sans-serif"
+      font-size="48"
+      letter-spacing="0.28em"
+      fill="#b5b0a6"
+    >
+      <tspan>cursed</tspan><tspan class="ai-shadow">AI</tspan>
+    </text>
+    <rect x="24" y="60" width="220" height="3" fill="#e8e4d9" opacity="0.35"/>
+  </g>
+</svg>
